@@ -11,5 +11,5 @@ if (averageGrade < 60) {
 }else if (verageGrade >= 91 && averageGrade <= 100) {
     console.log("Відмінно");
 } else {
-    console.log("Incorrect value")
-}   
+    console.log("Incorrect Value")
+}
