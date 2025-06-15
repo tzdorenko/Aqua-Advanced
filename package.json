@@ -7,6 +7,7 @@
     "asynckit": "^0.4.0",
     "axios": "^1.9.0",
     "call-bind-apply-helpers": "^1.0.2",
+    "chalk": "^5.4.1",
     "combined-stream": "^1.0.8",
     "delayed-stream": "^1.0.0",
     "dunder-proto": "^1.0.1",
@@ -28,7 +29,6 @@
     "mime-types": "^2.1.35",
     "proxy-from-env": "^1.1.0"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
