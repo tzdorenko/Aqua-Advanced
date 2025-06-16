@@ -1,2 +1,2 @@
 import chalk from "chalk";
-console.log(chalk.red.bgBlue.bold("Chalk posibility!"));
+console.log(chalk.red.bgGray.bold("Chalk posibility!"));
