@@ -7,20 +7,20 @@ console.log(getAreaRectangle(5, 10));
 
 
 //Function Expression//
-const getAreaRectangle = function (width, height) {
+const getAreaRectangle2 = function (width, height) {
     return width * height;
 }
-console.log(getAreaRectangle(5, 10));
+console.log(getAreaRectangle2(0.55, 110).toFixed(2));
 
 
 //Arrow Function Expression//
-const getAreaRectangle = (width, height) => {
+const getAreaRectangle3 = (width, height) => {
     return width * height;
 }
-console.log (getAreaRectangle(5, 10));
+console.log (getAreaRectangle3(1.8, 10));
 
 
 //Consine Arrow Function Expression//
-const getAreaRectangle = (width, height) => width * height;
+const getAreaRectangle4 = (width, height) => width * height;
 
-console.log (getAreaRectangle(5, 10));
+console.log (getAreaRectangle4(3, 10));
