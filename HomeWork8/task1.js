@@ -3,19 +3,16 @@ let positiveCount = 0;
 let negativeCount = 0;
 let zeroCount = 0;
 for (let i = 0; i < numbers.length; i++) {
-    const number = numbers[i];
-if (number > 0) {
+  const number = numbers[i];
+  if (number > 0) {
     positiveCount++;
-    } else if (number < 0) {
+  } else if (number < 0) {
     negativeCount++;
-    } else {
-        zeroCount++;
-    }
+  } else {
+    zeroCount++;
+  }
 }
 
 console.log("Кількість позитивних чисесл:", positiveCount);
 console.log("Кількість негативних чисел:", negativeCount);
 console.log("Кількість нульових чисел:", zeroCount);
-
-
-
